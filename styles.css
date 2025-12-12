@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
+	overflow-x: hidden;
 }
 a {
 	text-decoration: none;
@@ -100,6 +101,10 @@ section {
 li {
 	text-align: left;
 }
+.transitionFooter {
+	width: 100vw;
+	transform: translateY(10px);
+}
 footer {
 	background-color: #232323;
 	padding: 25px;
@@ -107,10 +112,6 @@ footer {
 	text-align: center;
 }
 
-.transitionFooter {
-	width: calc(100vw - 15px);
-	transform: translateY(10px);
-}
 
 /* HISTOIRE DE L'IA */
 
