@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: blue;
+	transition: color 0.25s;
+}
+a:hover {
+	color: #60a5fa;
+}
+img {
+	border-radius: 10px;
+}
+nav {
+	padding: 10px 100px;
+	position: fixed;
+	top: 0;
+	width: calc(100% - 200px);
+	background-color: #fefeff;
+	z-index: 10;
+}
+nav div {
+	display: inline;
+}
+.lienImgNav img {
+	width: 50px;
+}
+.lienNav, .lienImgNav {
+    display: inline-block;
+    vertical-align: middle;
+}
+#conteneurLiensNav {
+	float: right;
+    line-height: 50px;
+}
+.lienNav {
+	margin-left: 50px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	font-weight: 600;
+}
+.lienNav:hover {
+	color: black;
+}
+.actif {
+	color: #58bbc2;
+}
+.actif:hover {
+	color: #58bbc2;
+}
+header {
+	height: 65vh;
+	background-image: url("./Images/fond.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+header h1 {
+    text-align: center; 
+	color: white;
+	padding-top: calc(65vh/2 - (5rem));
+	font-size: 5rem;
+	text-transform: uppercase;
+	font-family: Impact, sans-serif;
+	font-weight: 300;
+}
+main {
+	margin: 50px 15%;
+	text-align: center;
+}
+section {
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+.titre {
+	color: #074681;
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-family: Impact, sans-serif;
+	font-weight: 100;
+}
+.source {
+	font-style: italic;
+}
+.imageGauche, .texteDroite {
+	display: inline-block;
+	width: calc(49% - 25px);
+    vertical-align: top;
+}
+.imageGauche {
+	border-radius: 15px;
+}
+.texteDroite {
+	text-align: justify;
+	padding-left: 25px;
+}
+li {
+	text-align: left;
+}
+footer {
+	background-color: #232323;
+	padding: 25px;
+	color: white;
+	text-align: center;
+}
+
+.transitionFooter {
+	width: calc(100vw - 15px);
+	transform: translateY(10px);
+}
+
+/* HISTOIRE DE L'IA */
+
+.elHistoire {
+	border: 1px solid black;
+	width: 80%;
+	padding: 10px 50px;
+	border-radius: 15px;
+	position: relative;
+	margin: 0 auto 50px auto;
+}
+.elHistoire h3 {
+	position: absolute;
+	top: -37px;
+	background: white;
+	padding: 0 5px;
+	color: #074681;
+	font-size: 1.5rem;
+}
+.elHistoire h4 {
+	color: #ac6cbe;
+	font-size: 1.25rem;
+	font-weight: 800;
+	text-align: left;
+}
+.elHistoire p {
+	text-align: justify;
+
+}
+
+/* IMPACT */
+
+.graphique {
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+.sourceGraphique {
+	padding-top: 15px;
+	text-align: right;
+}
